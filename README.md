@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Welcome, I'm Shawky Ahmad Shawky, Computer Engineer with a focus on the MEAN stack. Skilled in developing dynamic web applications, Check out my projects !🚀
+👋 Welcome, I'm Shawky Ahmad Shawky, Computer Engineer student @Ainshams University with a focus on the MEAN stack. Skilled in developing dynamic web applications, Check out my projects !🚀
 
 
 ## 🌐 Socials:
