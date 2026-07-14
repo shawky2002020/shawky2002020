@@ -38,3 +38,5 @@ jobs:
           path: facade-images
           if-no-files-found: error
           compression-level: 0
+
+# Triggered for direct artifact recovery on 2026-07-14
