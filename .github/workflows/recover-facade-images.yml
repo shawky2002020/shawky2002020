@@ -1,0 +1,40 @@
+name: Recover facade images
+
+on:
+  push:
+    paths:
+      - '.github/workflows/recover-facade-images.yml'
+  workflow_dispatch:
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download originals into design folders
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p facade-images
+          views=(hero-main opposite-corner street-arrival entrance-closeup fence-gate-closeup balcony-detail hero-dusk original-reference)
+          for design in 1 2 3 4 5; do
+            folder="facade-images/design-0${design}"
+            mkdir -p "$folder"
+            for view in "${views[@]}"; do
+              file="design-0${design}-${view}.png"
+              url="https://facade-approval.vercel.app/designs/${design}/${file}"
+              status=$(curl -L --silent --show-error --output "$folder/$file" --write-out '%{http_code}' "$url")
+              if [ "$status" != "200" ]; then
+                echo "Missing or failed: $url ($status)"
+                rm -f "$folder/$file"
+              fi
+            done
+          done
+          find facade-images -type f -print
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: facade-images
+          path: facade-images
+          if-no-files-found: error
+          compression-level: 0
