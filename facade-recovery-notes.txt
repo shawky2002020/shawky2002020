@@ -1,1 +1,0 @@
-Preparing pull-request based facade image recovery.
