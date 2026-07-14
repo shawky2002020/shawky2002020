@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - '.github/workflows/recover-facade-images.yml'
+  pull_request:
+    paths:
+      - '.github/workflows/recover-facade-images.yml'
   workflow_dispatch:
 
 permissions:
@@ -50,6 +53,7 @@ jobs:
           compression-level: 0
 
       - name: Record artifact details
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           cat > facade-artifact-info.json <<EOF
@@ -66,4 +70,4 @@ jobs:
           git commit -m "Record facade artifact ID" || exit 0
           git push
 
-# Trigger direct recovery and artifact handoff
+# PR-triggered recovery for direct artifact handoff
