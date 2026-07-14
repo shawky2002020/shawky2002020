@@ -70,4 +70,4 @@ jobs:
           git commit -m "Record facade artifact ID" || exit 0
           git push
 
-# PR-triggered recovery for direct artifact handoff
+# Pull-request run trigger 2026-07-14
