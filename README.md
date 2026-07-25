@@ -70,161 +70,32 @@ My featured engineering work includes:
 
 <div align="center">
 
+<a href="https://github.com/Requra/frontend">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Requra&repo=frontend&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="Requra.AI frontend repository" />
+</a>
 <a href="https://github.com/shawky2002020/Knee-MRI-AI-Analysis">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=shawky2002020&repo=Knee-MRI-AI-Analysis&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="ACLyze AI repository" />
 </a>
-<a href="https://github.com/shawky2002020/Yad-b-Yad">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=shawky2002020&repo=Yad-b-Yad&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="Yad b Yad repository" />
+
+</div>
+
+### Requra.AI — AI requirements engineering workspace
+
+Requra.AI transforms project documents, meeting context, and notes into traceable requirements, user stories, acceptance criteria, evidence, stakeholder feedback, and delivery-ready exports.
+
+My frontend work includes React 19 and TypeScript architecture, typed API boundaries, asynchronous analysis states, stakeholder review workflows, live-meeting experiences, server-state management with TanStack Query, focused client state with Zustand, form validation with React Hook Form and Zod, and accessible responsive delivery.
+
+<div align="center">
+
+<a href="https://github.com/Requra/frontend">
+  <img src="https://img.shields.io/badge/View-Requra.AI%20Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Requra.AI repository" />
+</a>
+<a href="https://requra-demo-rust.vercel.app/demo">
+  <img src="https://img.shields.io/badge/Open-Interactive%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Requra.AI interactive demo" />
 </a>
 
 </div>
 
-### ACLyze AI
+### ACLyze AI — AI-assisted medical imaging platform
 
-A full-stack medical-imaging platform connecting an Angular application, Node.js services, MongoDB, a FastAPI AI service, MRI-analysis models, Grad-CAM visualizations, and report workflows.
-
-### Yad b Yad
-
-A responsive Arabic-first charity platform featuring complete RTL support, donation experiences, volunteer registration, beneficiary workflows, accessibility considerations, and mobile-first interfaces.
-
-> Some of my largest production systems remain in private repositories. Public showcase repositories document selected architecture, workflows, product decisions, and outcomes without exposing proprietary source code.
-
----
-
-## What I bring to a product team
-
-| Area | What I contribute |
-|---|---|
-| **Product engineering** | Turn product requirements into maintainable, production-ready features |
-| **Frontend systems** | Responsive interfaces, state management, design systems, accessibility, and performance |
-| **Backend engineering** | APIs, authentication, business rules, real-time workflows, and service architecture |
-| **Data and analytics** | PostgreSQL, MongoDB, querying, data modeling, reporting, and analytics pipelines |
-| **Mobile delivery** | Ionic, Capacitor, Android and iOS workflows, device-safe UI, and store preparation |
-| **Engineering operations** | Docker, CI/CD, cloud deployment, observability, testing, and release safety |
-
----
-
-## Technical toolbox
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,angular,react,nextjs,nodejs,nestjs,express,postgres,mongodb,redis,html,css,sass,tailwind&perline=8" alt="Core development technologies" />
-
-<br />
-
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,firebase,figma,python,cpp&perline=8" alt="Engineering tools" />
-
-</div>
-
-<details>
-<summary><strong>Explore my engineering focus</strong></summary>
-
-<br />
-
-### Frontend
-
-- Angular, React, and Next.js
-- TypeScript and modern JavaScript
-- RxJS and application state management
-- Responsive and mobile-first architecture
-- SCSS, Tailwind CSS, design tokens, and reusable UI systems
-- Accessibility, performance, animation, and cross-browser behavior
-
-### Backend and data
-
-- Node.js, Express, and NestJS
-- REST API design and integration
-- PostgreSQL, MongoDB, and Redis
-- Authentication and role-based authorization
-- Real-time systems and background workflows
-- Relational modeling, indexing, analytics, and reporting
-
-### Delivery
-
-- Docker and environment management
-- GitHub Actions and CI/CD pipelines
-- Cloud deployment and managed databases
-- Android and iOS release workflows
-- Automated testing, monitoring, and production diagnostics
-
-</details>
-
----
-
-## Beyond engineering
-
-<details open>
-<summary><strong>Why karate is part of my engineering story</strong></summary>
-
-<br />
-
-I am also an **Egyptian national karate champion**.
-
-Competitive sport taught me how to stay calm under pressure, analyze performance honestly, repeat difficult work until it becomes reliable, and keep improving after both wins and failures.
-
-That mindset directly shapes how I engineer products:
-
-- Discipline over temporary motivation
-- Measurable improvement over guesswork
-- Clear decisions under pressure
-- Consistency across long delivery cycles
-- Ownership of both results and mistakes
-
-It is also what inspired the domain behind Jahiz Analytics.
-
-</details>
-
----
-
-## Current focus
-
-```text
-Building     Production web and cross-platform mobile products
-Improving    System design, architecture, databases, and problem solving
-Exploring    AI-powered workflows and human-in-the-loop systems
-Shipping     Reliable experiences that solve real user problems
-```
-
----
-
-## GitHub activity
-
-<details>
-<summary><strong>View development activity</strong></summary>
-
-<br />
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shawky2002020&show_icons=true&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="Shawky's GitHub statistics" />
-
-<img width="49%" src="https://streak-stats.demolab.com?user=shawky2002020&theme=transparent&hide_border=true&ring=2563EB&fire=DC2626&currStreakLabel=2563EB" alt="Shawky's GitHub contribution streak" />
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=shawky2002020&bg_color=transparent&color=64748B&line=2563EB&point=DC2626&area=true&hide_border=true" alt="Shawky's contribution activity graph" />
-
-</div>
-
-</details>
-
----
-
-<div align="center">
-
-### Let’s build something valuable
-
-I am interested in opportunities where I can take ownership, solve real product problems, and contribute across frontend, backend, architecture, and delivery.
-
-<a href="https://www.shawkyelsayed.com">
-  <img src="https://img.shields.io/badge/Explore-My%20Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-</a>
-<a href="https://www.linkedin.com/in/shawky-elsayed">
-  <img src="https://img.shields.io/badge/Connect-On%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-
-<br /><br />
-
-**Engineering discipline. Athlete mentality. Product ownership.**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:DC2626&height=120&section=footer" alt="" />
-
-</div>
+A full-stack medical imaging platform connecting an Angular application, Node.js services, MongoDB, a FastAPI AI service, MRI-analysis models, Grad-CAM visualizations, and report workflows.
