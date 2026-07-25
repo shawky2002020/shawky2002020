@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Shawky Elsayed engineering delivery loop</title>
+  <desc id="desc">An animated loop from product understanding through architecture, implementation, delivery, and measurable improvement.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2563EB"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#E11D48"/></linearGradient>
+    <filter id="glow" x="-90%" y="-90%" width="280%" height="280%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      :root{--bg:#0B1220;--panel:#101827;--border:#263449;--title:#F8FAFC;--muted:#94A3B8;--chip:#172033;--grid:#334155}
+      @media (prefers-color-scheme:light){:root{--bg:#F8FAFC;--panel:#FFFFFF;--border:#CBD5E1;--title:#0F172A;--muted:#64748B;--chip:#F1F5F9;--grid:#94A3B8}}
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.dash{animation:dash 9s linear infinite}.node{animation:breathe 3.2s ease-in-out infinite}.n2{animation-delay:-.8s}.n3{animation-delay:-1.6s}.n4{animation-delay:-2.4s}.caption{animation:fade 6s ease-in-out infinite}.caption2{animation:fade2 6s ease-in-out infinite}
+      @keyframes dash{to{stroke-dashoffset:-220}}@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      @keyframes fade{0%,45%{opacity:1}55%,100%{opacity:.3}}@keyframes fade2{0%,45%{opacity:.3}55%,100%{opacity:1}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="var(--grid)" stroke-width="1" opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="250" rx="26" fill="var(--bg)"/>
+  <rect width="1200" height="250" rx="26" fill="url(#grid)"/>
+  <text class="sans" x="52" y="47" fill="var(--title)" font-size="20" font-weight="800">HOW I TURN AMBIGUITY INTO DELIVERY</text>
+  <text class="sans caption" x="52" y="72" fill="var(--muted)" font-size="14">Product thinking first. Architecture second. Code in service of outcomes.</text>
+  <text class="sans caption2" x="52" y="72" fill="var(--muted)" font-size="14">Ship safely, observe honestly, and feed evidence back into the next decision.</text>
+
+  <path d="M150 149H1050" fill="none" stroke="var(--border)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 149H1050" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 22" class="dash"/>
+  <circle r="8" fill="#60A5FA" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M150 149H1050"/></circle>
+
+  <g class="sans node" transform="translate(74 101)">
+    <rect width="190" height="96" rx="20" fill="var(--panel)" stroke="#2563EB"/>
+    <circle cx="30" cy="29" r="11" fill="#2563EB"/><text x="30" y="34" fill="#FFF" text-anchor="middle" font-size="12" font-weight="800">1</text>
+    <text x="52" y="34" fill="var(--title)" font-size="16" font-weight="800">UNDERSTAND</text>
+    <text x="24" y="63" fill="var(--muted)" font-size="13">Users, constraints, risks</text>
+    <text x="24" y="82" fill="var(--muted)" font-size="13">and the real success signal</text>
+  </g>
+  <g class="sans node n2" transform="translate(362 101)">
+    <rect width="190" height="96" rx="20" fill="var(--panel)" stroke="#7C3AED"/>
+    <circle cx="30" cy="29" r="11" fill="#7C3AED"/><text x="30" y="34" fill="#FFF" text-anchor="middle" font-size="12" font-weight="800">2</text>
+    <text x="52" y="34" fill="var(--title)" font-size="16" font-weight="800">DESIGN</text>
+    <text x="24" y="63" fill="var(--muted)" font-size="13">Boundaries, contracts, data</text>
+    <text x="24" y="82" fill="var(--muted)" font-size="13">and failure-aware flows</text>
+  </g>
+  <g class="sans node n3" transform="translate(650 101)">
+    <rect width="190" height="96" rx="20" fill="var(--panel)" stroke="#0891B2"/>
+    <circle cx="30" cy="29" r="11" fill="#0891B2"/><text x="30" y="34" fill="#FFF" text-anchor="middle" font-size="12" font-weight="800">3</text>
+    <text x="52" y="34" fill="var(--title)" font-size="16" font-weight="800">BUILD</text>
+    <text x="24" y="63" fill="var(--muted)" font-size="13">Accessible UI, robust APIs</text>
+    <text x="24" y="82" fill="var(--muted)" font-size="13">tests and observability</text>
+  </g>
+  <g class="sans node n4" transform="translate(938 101)">
+    <rect width="190" height="96" rx="20" fill="var(--panel)" stroke="#E11D48"/>
+    <circle cx="30" cy="29" r="11" fill="#E11D48"/><text x="30" y="34" fill="#FFF" text-anchor="middle" font-size="12" font-weight="800">4</text>
+    <text x="52" y="34" fill="var(--title)" font-size="16" font-weight="800">IMPROVE</text>
+    <text x="24" y="63" fill="var(--muted)" font-size="13">Release, measure, learn</text>
+    <text x="24" y="82" fill="var(--muted)" font-size="13">and sharpen the system</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="248" rx="25" fill="none" stroke="var(--border)"/>
+</svg>
