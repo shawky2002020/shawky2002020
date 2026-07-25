@@ -1,95 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">Shawky Elsayed — Full Stack Product Engineer</title>
-  <desc id="desc">Animated engineering profile banner connecting product, frontend, backend, mobile, data, AI, and delivery.</desc>
+  <desc id="desc">Engineering profile banner connecting product, frontend, backend, mobile, data, AI, and delivery.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#F8FAFC"/>
-      <stop offset="0.55" stop-color="#F1F5F9"/>
+      <stop offset=".55" stop-color="#F1F5F9"/>
       <stop offset="1" stop-color="#EEF2FF"/>
     </linearGradient>
     <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#2563EB"/>
-      <stop offset="0.48" stop-color="#7C3AED"/>
+      <stop offset=".48" stop-color="#7C3AED"/>
       <stop offset="1" stop-color="#E11D48"/>
     </linearGradient>
     <radialGradient id="orbA"><stop offset="0" stop-color="#60A5FA" stop-opacity=".34"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
     <radialGradient id="orbB"><stop offset="0" stop-color="#A78BFA" stop-opacity=".30"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-width="1" opacity=".20"/></pattern>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="20"/></filter>
     <clipPath id="panel"><rect width="1200" height="520" rx="30"/></clipPath>
     <style>
       .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-      .orb-a{animation:driftA 8s ease-in-out infinite}.orb-b{animation:driftB 10s ease-in-out infinite}.ring{transform-origin:902px 255px;animation:spin 24s linear infinite}.ring-r{transform-origin:902px 255px;animation:spinR 18s linear infinite}.dash{animation:dash 10s linear infinite}.pulse{animation:pulse 2.6s ease-in-out infinite}.swap1{animation:swap1 9s ease-in-out infinite}.swap2{animation:swap2 9s ease-in-out infinite}.swap3{animation:swap3 9s ease-in-out infinite}.float{animation:float 4s ease-in-out infinite}.scan{animation:scan 4.5s ease-in-out infinite}
-      @keyframes driftA{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(34px,18px) scale(1.08)}}
-      @keyframes driftB{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-28px,-14px) scale(1.12)}}
-      @keyframes spin{to{transform:rotate(360deg)}}@keyframes spinR{to{transform:rotate(-360deg)}}
-      @keyframes dash{to{stroke-dashoffset:-240}}@keyframes pulse{0%,100%{opacity:.42;transform:scale(.94)}50%{opacity:1;transform:scale(1.08)}}
-      @keyframes swap1{0%,28%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-8px)}}
-      @keyframes swap2{0%,30%{opacity:0;transform:translateY(8px)}36%,61%{opacity:1;transform:translateY(0)}67%,100%{opacity:0;transform:translateY(-8px)}}
-      @keyframes swap3{0%,63%{opacity:0;transform:translateY(8px)}69%,94%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-8px)}}
-      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-      @keyframes scan{0%,100%{transform:translateX(-90px);opacity:0}15%,75%{opacity:.85}90%{transform:translateX(330px);opacity:0}}
+      .ring{transform-origin:902px 255px;animation:spin 28s linear infinite}
+      .ring-r{transform-origin:902px 255px;animation:spinR 22s linear infinite}
+      .dash{animation:dash 11s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}@keyframes spinR{to{transform:rotate(-360deg)}}@keyframes dash{to{stroke-dashoffset:-240}}
       @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
   <g clip-path="url(#panel)">
     <rect width="1200" height="520" fill="url(#bg)"/>
     <rect width="1200" height="520" fill="url(#grid)"/>
-    <circle class="orb-a" cx="215" cy="92" r="270" fill="url(#orbA)" filter="url(#soft)"/>
-    <circle class="orb-b" cx="1050" cy="450" r="310" fill="url(#orbB)" filter="url(#soft)"/>
-    <path d="M-60 438C210 340 386 476 640 388S1014 290 1280 402" fill="none" stroke="url(#brand)" stroke-width="2" opacity=".24" stroke-dasharray="8 14" class="dash"/>
+    <circle cx="205" cy="78" r="260" fill="url(#orbA)" filter="url(#soft)"/>
+    <circle cx="1060" cy="455" r="300" fill="url(#orbB)" filter="url(#soft)"/>
+    <path d="M-40 442C206 354 390 472 640 392S1000 300 1240 404" fill="none" stroke="url(#brand)" stroke-width="2" opacity=".22" stroke-dasharray="8 14" class="dash"/>
 
     <g class="sans">
-      <g transform="translate(64 58)">
-        <rect width="154" height="34" rx="17" fill="#FFFFFF" stroke="#CBD5E1"/>
-        <circle cx="19" cy="17" r="5" fill="#16A34A" class="pulse"/>
-        <text x="34" y="22" fill="#334155" font-size="13" font-weight="700" letter-spacing="1.3">OPEN TO IMPACT</text>
+      <g transform="translate(64 54)">
+        <rect width="174" height="36" rx="18" fill="#FFFFFF" stroke="#CBD5E1"/>
+        <circle cx="20" cy="18" r="5" fill="#16A34A"><animate attributeName="opacity" values=".45;1;.45" dur="2.6s" repeatCount="indefinite"/></circle>
+        <text x="36" y="23" fill="#334155" font-size="13" font-weight="700" letter-spacing="1.15">OPEN TO IMPACT</text>
       </g>
-      <text x="64" y="157" fill="#0F172A" font-size="58" font-weight="850" letter-spacing="-2">Shawky Elsayed</text>
-      <rect x="64" y="177" width="405" height="6" rx="3" fill="url(#brand)"/>
-      <text x="64" y="226" fill="#334155" font-size="24" font-weight="650">FULL-STACK PRODUCT ENGINEER</text>
-      <g transform="translate(64 258)">
-        <text class="swap1" x="0" y="0" fill="#1D4ED8" font-size="19" font-weight="650">Building production web &amp; mobile systems.</text>
-        <text class="swap2" x="0" y="0" fill="#6D28D9" font-size="19" font-weight="650">Turning complex workflows into clear products.</text>
-        <text class="swap3" x="0" y="0" fill="#BE123C" font-size="19" font-weight="650">Engineering with an athlete's discipline.</text>
-      </g>
-      <g transform="translate(64 308)" font-size="14" font-weight="700">
+
+      <text x="64" y="158" fill="#0F172A" font-size="58" font-weight="800" letter-spacing="-2">Shawky Elsayed</text>
+      <rect x="64" y="178" width="405" height="6" rx="3" fill="url(#brand)"/>
+      <text x="64" y="228" fill="#334155" font-size="24" font-weight="700">FULL-STACK PRODUCT ENGINEER</text>
+      <text x="64" y="268" fill="#BE123C" font-size="19" font-weight="650">Engineering production products with an athlete's discipline.</text>
+
+      <g transform="translate(64 306)" font-size="14" font-weight="700">
         <g><rect width="92" height="38" rx="12" fill="#EFF6FF" stroke="#2563EB"/><text x="46" y="24" fill="#1E40AF" text-anchor="middle">FRONTEND</text></g>
         <g transform="translate(104)"><rect width="88" height="38" rx="12" fill="#F5F3FF" stroke="#7C3AED"/><text x="44" y="24" fill="#5B21B6" text-anchor="middle">BACKEND</text></g>
         <g transform="translate(204)"><rect width="80" height="38" rx="12" fill="#ECFEFF" stroke="#0891B2"/><text x="40" y="24" fill="#155E75" text-anchor="middle">MOBILE</text></g>
         <g transform="translate(296)"><rect width="65" height="38" rx="12" fill="#FFF1F2" stroke="#E11D48"/><text x="32.5" y="24" fill="#9F1239" text-anchor="middle">AI</text></g>
       </g>
-      <g transform="translate(64 389)">
-        <rect width="480" height="64" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
-        <rect x="1" y="1" width="478" height="62" rx="15" fill="none" stroke="url(#brand)" opacity=".16"/>
-        <text class="mono" x="20" y="27" fill="#64748B" font-size="14">const mindset =</text>
-        <text class="mono" x="157" y="27" fill="#1D4ED8" font-size="14">ship</text>
-        <text class="mono" x="192" y="27" fill="#64748B" font-size="14">→</text>
-        <text class="mono" x="215" y="27" fill="#6D28D9" font-size="14">measure</text>
-        <text class="mono" x="277" y="27" fill="#64748B" font-size="14">→</text>
-        <text class="mono" x="300" y="27" fill="#BE123C" font-size="14">improve</text>
-        <text class="mono" x="365" y="27" fill="#0F172A" font-size="14">;</text>
-        <text class="mono" x="20" y="49" fill="#64748B" font-size="12">product ownership • system thinking • reliable delivery</text>
-        <rect class="scan" x="18" y="56" width="82" height="2" rx="1" fill="url(#brand)"/>
+
+      <g transform="translate(64 386)">
+        <rect width="500" height="68" rx="17" fill="#FFFFFF" stroke="#CBD5E1"/>
+        <rect x="1" y="1" width="498" height="66" rx="16" fill="none" stroke="url(#brand)" opacity=".18"/>
+        <text class="mono" x="20" y="28" fill="#64748B" font-size="14">const mindset =</text>
+        <text class="mono" x="157" y="28" fill="#1D4ED8" font-size="14">ship</text>
+        <text class="mono" x="192" y="28" fill="#64748B" font-size="14">→</text>
+        <text class="mono" x="215" y="28" fill="#6D28D9" font-size="14">measure</text>
+        <text class="mono" x="277" y="28" fill="#64748B" font-size="14">→</text>
+        <text class="mono" x="300" y="28" fill="#BE123C" font-size="14">improve</text>
+        <text class="mono" x="365" y="28" fill="#0F172A" font-size="14">;</text>
+        <text class="mono" x="20" y="51" fill="#64748B" font-size="12">product ownership • system thinking • reliable delivery</text>
+        <rect x="20" y="59" width="88" height="2" rx="1" fill="url(#brand)"><animate attributeName="x" values="20;390;20" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="5s" repeatCount="indefinite"/></rect>
       </g>
     </g>
 
-    <g>
+    <g class="sans">
       <circle cx="902" cy="255" r="155" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
       <circle cx="902" cy="255" r="119" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="5 10" class="ring"/>
       <circle cx="902" cy="255" r="82" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 9" class="ring-r"/>
       <circle cx="902" cy="255" r="50" fill="#F8FAFC" stroke="url(#brand)" stroke-width="2" filter="url(#glow)"/>
-      <text class="sans" x="902" y="249" fill="#0F172A" text-anchor="middle" font-size="18" font-weight="800">PRODUCT</text>
-      <text class="sans" x="902" y="272" fill="#64748B" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.6">ENGINEERING</text>
+      <text x="902" y="249" fill="#0F172A" text-anchor="middle" font-size="18" font-weight="800">PRODUCT</text>
+      <text x="902" y="272" fill="#64748B" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.6">ENGINEERING</text>
 
-      <g class="sans float"><g transform="translate(846 70)"><rect width="112" height="40" rx="14" fill="#EFF6FF" stroke="#2563EB"/><text x="56" y="25" fill="#1E40AF" text-anchor="middle" font-size="13" font-weight="750">FRONTEND</text></g></g>
-      <g class="sans float" style="animation-delay:-1s"><g transform="translate(1041 184)"><rect width="105" height="40" rx="14" fill="#F5F3FF" stroke="#7C3AED"/><text x="52.5" y="25" fill="#5B21B6" text-anchor="middle" font-size="13" font-weight="750">BACKEND</text></g></g>
-      <g class="sans float" style="animation-delay:-2s"><g transform="translate(1002 389)"><rect width="100" height="40" rx="14" fill="#ECFEFF" stroke="#0891B2"/><text x="50" y="25" fill="#155E75" text-anchor="middle" font-size="13" font-weight="750">DELIVERY</text></g></g>
-      <g class="sans float" style="animation-delay:-3s"><g transform="translate(691 351)"><rect width="92" height="40" rx="14" fill="#FFF1F2" stroke="#E11D48"/><text x="46" y="25" fill="#9F1239" text-anchor="middle" font-size="13" font-weight="750">DATA / AI</text></g></g>
-      <g class="sans float" style="animation-delay:-.5s"><g transform="translate(674 153)"><rect width="92" height="40" rx="14" fill="#F0F9FF" stroke="#0EA5E9"/><text x="46" y="25" fill="#075985" text-anchor="middle" font-size="13" font-weight="750">MOBILE</text></g></g>
+      <g transform="translate(846 70)"><rect width="112" height="40" rx="14" fill="#EFF6FF" stroke="#2563EB"/><text x="56" y="25" fill="#1E40AF" text-anchor="middle" font-size="13" font-weight="700">FRONTEND</text></g>
+      <g transform="translate(1041 184)"><rect width="105" height="40" rx="14" fill="#F5F3FF" stroke="#7C3AED"/><text x="52.5" y="25" fill="#5B21B6" text-anchor="middle" font-size="13" font-weight="700">BACKEND</text></g>
+      <g transform="translate(1002 389)"><rect width="100" height="40" rx="14" fill="#ECFEFF" stroke="#0891B2"/><text x="50" y="25" fill="#155E75" text-anchor="middle" font-size="13" font-weight="700">DELIVERY</text></g>
+      <g transform="translate(691 351)"><rect width="92" height="40" rx="14" fill="#FFF1F2" stroke="#E11D48"/><text x="46" y="25" fill="#9F1239" text-anchor="middle" font-size="13" font-weight="700">DATA / AI</text></g>
+      <g transform="translate(674 153)"><rect width="92" height="40" rx="14" fill="#F0F9FF" stroke="#0EA5E9"/><text x="46" y="25" fill="#075985" text-anchor="middle" font-size="13" font-weight="700">MOBILE</text></g>
 
-      <path d="M902 110C1040 112 1108 194 1094 286S1010 432 902 410 716 363 714 255 790 112 902 110Z" fill="none" stroke="url(#brand)" stroke-width="2" stroke-dasharray="7 13" class="dash" opacity=".68"/>
+      <path d="M902 110C1040 112 1108 194 1094 286S1010 432 902 410 716 363 714 255 790 112 902 110Z" fill="none" stroke="url(#brand)" stroke-width="2" stroke-dasharray="7 13" class="dash" opacity=".72"/>
       <circle r="7" fill="#2563EB" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M902 110C1040 112 1108 194 1094 286S1010 432 902 410 716 363 714 255 790 112 902 110Z"/></circle>
     </g>
   </g>
