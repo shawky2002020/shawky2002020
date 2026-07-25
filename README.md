@@ -1,72 +1,93 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
+  <img src="./assets/profile-hero-light.svg" width="100%" alt="Shawky Elsayed — Full Stack Product Engineer" />
+</picture>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:DC2626&height=230&section=header&text=Shawky%20Elsayed&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Product%20Builder%20%E2%80%A2%20Karate%20Champion&descAlignY=57&descSize=18" alt="Shawky Elsayed — Full Stack Engineer" />
+<p align="center">
+  <a href="https://www.shawkyelsayed.com"><img src="https://img.shields.io/badge/PORTFOLIO-Explore%20my%20work-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/shawky-elsayed"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:shawkyelsayed2002@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Start%20a%20conversation-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shawky" /></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=750&lines=Building+production+web+and+mobile+products;Angular+%7C+React+%7C+Next.js+%7C+Node.js;Engineering+with+an+athlete%27s+mindset" alt="Engineering focus" />
-
-<br />
-
-<a href="https://www.shawkyelsayed.com">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-</a>
-<a href="https://www.linkedin.com/in/shawky-elsayed">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:shawkyelsayed2002@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-DC2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-</div>
-
-<br />
-
-## Engineering with an athlete’s mindset
-
-I am a **Full Stack Engineer** building production-focused web and mobile products using TypeScript, Angular, React, Next.js, Node.js, NestJS, and modern data platforms.
-
-I work across the complete product lifecycle: translating requirements into architecture, building responsive interfaces and APIs, designing data workflows, integrating real-time and AI-powered capabilities, and preparing applications for production delivery.
-
-I currently lead engineering across the mobile experience, backend systems, analytics, architecture, and release delivery of **Jahiz Analytics**.
-
-> **I do not only implement screens. I build products, systems, and the paths that take them to users.**
+<p align="center">
+  <strong>Cairo, Egypt</strong> · Web, mobile, real-time, data, and AI-assisted product engineering
+</p>
 
 ---
 
-## Featured product — Jahiz Analytics
+## The 20-second version
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>What I am</strong><br /><br />
+      A Full Stack Engineer who works beyond individual tickets—turning product requirements into maintainable systems and production-ready experiences.
+    </td>
+    <td width="33%" valign="top">
+      <strong>What I build</strong><br /><br />
+      Responsive web platforms, cross-platform mobile products, APIs, analytics workflows, real-time experiences, and AI-enabled applications.
+    </td>
+    <td width="33%" valign="top">
+      <strong>How I work</strong><br /><br />
+      Product-first, architecture-aware, evidence-driven, and accountable from the first decision through release and iteration.
+    </td>
+  </tr>
+</table>
+
+> **I do not only implement screens. I connect product intent, interface design, backend rules, data, delivery, and the feedback loop that makes a system better.**
+
+<img src="./assets/engineering-loop.svg" width="100%" alt="Understand, design, build, and improve engineering loop" />
+
+---
+
+# Flagship engineering work
+
+## 01 — Jahiz Analytics
+
+### A cross-platform karate performance product built around real competition workflows
 
 <a href="https://github.com/shawky2002020/jahiz-analytics-showcase">
   <img src="https://raw.githubusercontent.com/shawky2002020/jahiz-analytics-showcase/main/assets/hero/jahiz-hero.webp" width="100%" alt="Jahiz Analytics product showcase" />
 </a>
 
-### From every match to measurable improvement
+**Jahiz Analytics** turns live karate match activity into structured history, athlete context, tournament workflows, and actionable performance analytics for coaches and athletes.
 
-**Jahiz Analytics** is a cross-platform karate performance platform for live match tracking, athlete and team management, tournament workflows, and actionable performance analytics.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Product scope</strong>
+      <ul>
+        <li>Live, timer-aware match logging</li>
+        <li>Coach and athlete experiences</li>
+        <li>Player, team, and tournament workflows</li>
+        <li>Match review and analytics presentation</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Engineering ownership</strong>
+      <ul>
+        <li>Angular, Ionic, Capacitor, and TypeScript</li>
+        <li>Node.js APIs and PostgreSQL workflows</li>
+        <li>Role-aware rules, authentication, and subscriptions</li>
+        <li>CI/CD, mobile release preparation, testing, and production diagnostics</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-My featured engineering work includes:
+<p align="center">
+  <a href="https://github.com/shawky2002020/jahiz-analytics-showcase"><img src="https://img.shields.io/badge/VIEW-Product%20showcase-1D4ED8?style=for-the-badge&logo=github&logoColor=white" alt="View Jahiz product showcase" /></a>
+  <a href="https://github.com/shawky2002020/jahiz-analytics-showcase/blob/main/docs/ENGINEERING_CASE_STUDY.md"><img src="https://img.shields.io/badge/READ-Engineering%20case%20study-DC2626?style=for-the-badge&logo=readme&logoColor=white" alt="Read Jahiz engineering case study" /></a>
+</p>
 
-- Cross-platform mobile engineering with Angular, Ionic, and Capacitor
-- Live, timer-aware karate match workflows
-- Athlete, coach, team, and tournament experiences
-- Analytics pipelines and chart-driven performance views
-- Node.js APIs and PostgreSQL data modeling
-- Responsive mobile UI/UX and reusable design systems
-- Authentication, permissions, subscriptions, and business rules
-- CI/CD, production infrastructure, testing, and store-release preparation
-
-<div align="center">
-
-<a href="https://github.com/shawky2002020/jahiz-analytics-showcase">
-  <img src="https://img.shields.io/badge/View-Product%20Showcase-1D4ED8?style=for-the-badge&logo=github&logoColor=white" alt="Jahiz showcase" />
-</a>
-<a href="https://github.com/shawky2002020/jahiz-analytics-showcase/blob/main/docs/ENGINEERING_CASE_STUDY.md">
-  <img src="https://img.shields.io/badge/Read-Engineering%20Case%20Study-DC2626?style=for-the-badge&logo=readme&logoColor=white" alt="Engineering case study" />
-</a>
-
-</div>
+> The production source and private services remain private. The public repository presents real product flows, engineering decisions, screenshots, architecture, and recruiter-facing evidence without exposing proprietary code.
 
 ---
 
-## Selected work
+## 02 — Requra.AI
+
+### Evidence-grounded requirements engineering across documents, meetings, stakeholders, and AI workflows
 
 <a href="https://github.com/Requra">
   <picture>
@@ -76,31 +97,117 @@ My featured engineering work includes:
   </picture>
 </a>
 
-### Requra.AI — Evidence-grounded requirements engineering
+**Requra.AI** transforms project documents, transcripts, meeting audio, and notes into traceable requirements, user stories, acceptance criteria, evidence, quality findings, stakeholder feedback, and delivery-ready exports.
 
-**Requra.AI** transforms project documents, transcripts, meeting audio, and notes into traceable requirements, user stories, acceptance criteria, quality findings, stakeholder feedback, and delivery-ready exports.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Frontend product engineering</strong>
+      <ul>
+        <li>React 19, TypeScript, Vite, and React Router</li>
+        <li>TanStack Query, Zustand, Axios adapters, and polling</li>
+        <li>React Hook Form, Zod, Tailwind CSS, and accessible UI systems</li>
+        <li>Projects, analysis states, evidence, reviews, exports, and live meetings</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <strong>System integration</strong>
+      <ul>
+        <li>Typed boundaries between React, the .NET backend, and AI services</li>
+        <li>Explicit queued, processing, partial, rejected, failed, and retry states</li>
+        <li>Deterministic demo infrastructure using MSW</li>
+        <li>Production-service isolation and failure-aware UX</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-My work spans the product-facing React architecture and the integration boundaries around its asynchronous AI workflow:
+<p align="center">
+  <a href="https://requra-demo-rust.vercel.app/demo"><img src="https://img.shields.io/badge/OPEN-Interactive%20demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Requra.AI interactive demo" /></a>
+  <a href="https://github.com/Requra/frontend"><img src="https://img.shields.io/badge/EXPLORE-React%20frontend-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Explore Requra.AI frontend" /></a>
+  <a href="https://github.com/Requra/ai-pipeline"><img src="https://img.shields.io/badge/EXPLORE-AI%20pipeline-0F172A?style=for-the-badge&logo=python&logoColor=FACC15" alt="Explore Requra.AI AI pipeline" /></a>
+</p>
 
-- React 19, TypeScript, Vite, React Router, and Tailwind CSS
-- TanStack Query for server state, polling, mutations, and cache coordination
-- Zustand for focused client and session state
-- React Hook Form and Zod for typed, validated workflows
-- Project, analysis, evidence, stakeholder-review, and live-meeting experiences
-- Typed API adapters connecting the frontend to the .NET backend and AI services
-- Accessible responsive delivery across mobile and desktop breakpoints
-- Deterministic demo infrastructure with MSW and production-service isolation
+---
+
+# What I can own end to end
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <strong>01 · Product UI</strong><br /><br />
+      Design systems, responsive interfaces, complex forms, state management, accessibility, animation, and performance.
+    </td>
+    <td width="25%" valign="top">
+      <strong>02 · Application logic</strong><br /><br />
+      Feature boundaries, domain workflows, authentication, permissions, error states, and maintainable TypeScript architecture.
+    </td>
+    <td width="25%" valign="top">
+      <strong>03 · APIs &amp; data</strong><br /><br />
+      REST contracts, backend services, PostgreSQL, MongoDB, Redis, validation, analytics, and asynchronous processing.
+    </td>
+    <td width="25%" valign="top">
+      <strong>04 · Delivery</strong><br /><br />
+      Git workflows, Docker, CI/CD, cloud deployments, mobile builds, testing, observability, and release safety.
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><strong>Technical toolbox — expand for the full map</strong></summary>
+  <br />
+
+  | Area | Technologies and practices |
+  | --- | --- |
+  | **Frontend** | Angular, React, Next.js, TypeScript, JavaScript, RxJS, TanStack Query, Zustand, NgRx |
+  | **UI engineering** | HTML, CSS, SCSS, Tailwind CSS, Ionic, responsive design, accessibility, GSAP, Framer Motion |
+  | **Backend** | Node.js, Express, NestJS, REST APIs, authentication, authorization, real-time workflows |
+  | **Data** | PostgreSQL, MongoDB, Redis, relational modeling, querying, indexing, analytics, reporting |
+  | **AI integration** | Typed AI-service contracts, asynchronous jobs, evidence flows, human-in-the-loop UX, LangChain exploration |
+  | **Delivery** | Git, GitHub Actions, Docker, Linux, cloud deployments, mobile release workflows, testing and diagnostics |
+
+</details>
+
+---
+
+# The athlete edge
+
+<table>
+  <tr>
+    <td width="70%" valign="middle">
+      I am also an <strong>Egyptian national karate champion</strong>. Competitive sport shaped how I approach engineering: stay calm under pressure, examine performance honestly, repeat hard work until it becomes reliable, and take responsibility for the result—not only the effort.
+      <br /><br />
+      <strong>Discipline over temporary motivation. Evidence over ego. Consistency over noise.</strong>
+    </td>
+    <td width="30%" align="center" valign="middle">
+      <h2>🥋 → 💻</h2>
+      <strong>Train. Build. Review. Improve.</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+# A fast path for recruiters
+
+| Time available | Best place to start |
+| --- | --- |
+| **30 seconds** | Read the 20-second summary and scan the two flagship products above. |
+| **2 minutes** | Open the [Jahiz product showcase](https://github.com/shawky2002020/jahiz-analytics-showcase) or the [Requra interactive demo](https://requra-demo-rust.vercel.app/demo). |
+| **5–10 minutes** | Read the [Jahiz engineering case study](https://github.com/shawky2002020/jahiz-analytics-showcase/blob/main/docs/ENGINEERING_CASE_STUDY.md) and inspect the [Requra frontend architecture](https://github.com/Requra/frontend). |
+| **Full review** | Visit [shawkyelsayed.com](https://www.shawkyelsayed.com) and connect through [LinkedIn](https://www.linkedin.com/in/shawky-elsayed). |
+
+---
 
 <div align="center">
 
-<a href="https://requra-demo-rust.vercel.app/demo">
-  <img src="https://img.shields.io/badge/Open-Interactive%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Requra.AI interactive demo" />
-</a>
-<a href="https://github.com/Requra/frontend">
-  <img src="https://img.shields.io/badge/Explore-Frontend-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Explore Requra.AI frontend" />
-</a>
-<a href="https://github.com/Requra/ai-pipeline">
-  <img src="https://img.shields.io/badge/Explore-AI%20Pipeline-0F172A?style=for-the-badge&logo=python&logoColor=FACC15" alt="Explore Requra.AI AI pipeline" />
-</a>
+## Build products that deserve to reach users.
+
+**Full Stack Engineering · Product Ownership · Athlete Mentality**
+
+<br />
+
+<a href="https://www.shawkyelsayed.com"><img src="https://img.shields.io/badge/SEE%20MORE-shawkyelsayed.com-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Shawky Elsayed portfolio" /></a>
+<a href="mailto:shawkyelsayed2002@gmail.com"><img src="https://img.shields.io/badge/CONTACT-shawkyelsayed2002%40gmail.com-E11D48?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Shawky Elsayed" /></a>
 
 </div>
