@@ -68,34 +68,39 @@ My featured engineering work includes:
 
 ## Selected work
 
+<a href="https://github.com/Requra">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Requra/ai-pipeline/main/docs/assets/readme/requra-hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Requra/ai-pipeline/main/docs/assets/readme/requra-hero-light.svg" />
+    <img src="https://raw.githubusercontent.com/Requra/ai-pipeline/main/docs/assets/readme/requra-hero-light.svg" width="100%" alt="Requra.AI evidence-grounded requirements engineering platform" />
+  </picture>
+</a>
+
+### Requra.AI — Evidence-grounded requirements engineering
+
+**Requra.AI** transforms project documents, transcripts, meeting audio, and notes into traceable requirements, user stories, acceptance criteria, quality findings, stakeholder feedback, and delivery-ready exports.
+
+My work spans the product-facing React architecture and the integration boundaries around its asynchronous AI workflow:
+
+- React 19, TypeScript, Vite, React Router, and Tailwind CSS
+- TanStack Query for server state, polling, mutations, and cache coordination
+- Zustand for focused client and session state
+- React Hook Form and Zod for typed, validated workflows
+- Project, analysis, evidence, stakeholder-review, and live-meeting experiences
+- Typed API adapters connecting the frontend to the .NET backend and AI services
+- Accessible responsive delivery across mobile and desktop breakpoints
+- Deterministic demo infrastructure with MSW and production-service isolation
+
 <div align="center">
 
-<a href="https://github.com/Requra/frontend">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Requra&repo=frontend&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="Requra.AI frontend repository" />
-</a>
-<a href="https://github.com/shawky2002020/Knee-MRI-AI-Analysis">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=shawky2002020&repo=Knee-MRI-AI-Analysis&theme=transparent&hide_border=true&title_color=2563EB&icon_color=DC2626&text_color=64748B" alt="ACLyze AI repository" />
-</a>
-
-</div>
-
-### Requra.AI — AI requirements engineering workspace
-
-Requra.AI transforms project documents, meeting context, and notes into traceable requirements, user stories, acceptance criteria, evidence, stakeholder feedback, and delivery-ready exports.
-
-My frontend work includes React 19 and TypeScript architecture, typed API boundaries, asynchronous analysis states, stakeholder review workflows, live-meeting experiences, server-state management with TanStack Query, focused client state with Zustand, form validation with React Hook Form and Zod, and accessible responsive delivery.
-
-<div align="center">
-
-<a href="https://github.com/Requra/frontend">
-  <img src="https://img.shields.io/badge/View-Requra.AI%20Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Requra.AI repository" />
-</a>
 <a href="https://requra-demo-rust.vercel.app/demo">
   <img src="https://img.shields.io/badge/Open-Interactive%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Requra.AI interactive demo" />
 </a>
+<a href="https://github.com/Requra/frontend">
+  <img src="https://img.shields.io/badge/Explore-Frontend-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Explore Requra.AI frontend" />
+</a>
+<a href="https://github.com/Requra/ai-pipeline">
+  <img src="https://img.shields.io/badge/Explore-AI%20Pipeline-0F172A?style=for-the-badge&logo=python&logoColor=FACC15" alt="Explore Requra.AI AI pipeline" />
+</a>
 
 </div>
-
-### ACLyze AI — AI-assisted medical imaging platform
-
-A full-stack medical imaging platform connecting an Angular application, Node.js services, MongoDB, a FastAPI AI service, MRI-analysis models, Grad-CAM visualizations, and report workflows.
